@@ -48,3 +48,6 @@ Reference Solution: [Stackoverflow](http://stackoverflow.com/questions/7447729/e
 3. Click on 'Add Platform' and choose 'Facebook Canvas' and Update the canvas URL 
 4. Inside your FB app be sure that your `App Domains` matches the domain that you are hosted on
 5. REMEMBER to publish your App in the 'Status & Review' section 
+
+## _Demo_ 
+[Example of the working share dialog](http://zkm.tw/1tIKo5F). 
