@@ -40,7 +40,7 @@ The description of the link (appears beneath the link caption). If not specified
         }; // IE hack to correct FB bug 20168  
     }
 
-Reference Solution: [Stackoverflow](http://stackoverflow.com/questions/7447729/error-in-ie-with-facebook-share-and-doesnt-close-window)
+Reference: [Stackoverflow](http://stackoverflow.com/questions/7447729/error-in-ie-with-facebook-share-and-doesnt-close-window)
 
 ## _Setup FB App_
 1. Create your app
