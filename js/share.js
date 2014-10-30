@@ -20,12 +20,25 @@ this.$('#btnFacebook').click(function () {
     }
 
     var params = {
-        method: 'feed',
-        link: $fbLink,
-        picture: $fbPic,
-        name: $fbName,
-        caption: $fbCap,
-        description: $fbDesc
+        // Option 1 [Preferred way via FB documentation]
+        method: 'share',
+        href: 'https://developers.facebook.com/docs/',
+
+        // Option 2 [Displaying 'Likes']
+        // method: 'share_open_graph',
+        // action_type: 'og.likes',
+        // action_properties: JSON.stringify({
+        //      object:'https://developers.facebook.com/docs/',
+        // })
+
+        // Option 3 [Deprecated in API Version 2.0]
+        // method: 'feed',
+        // link: $fbLink,
+        // picture: $fbPic,
+        // name: $fbName,
+        // caption: $fbCap,
+        // description: $fbDesc
+
     };
 
     FB.ui(params, function (response) {
